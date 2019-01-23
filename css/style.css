@@ -1,0 +1,61 @@
+nav{
+    margin: 0 0px 5px 0px;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    background-color:greenyellow;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 10px
+}
+
+.right {
+    float: right;
+}
+
+li a{
+    text-decoration: none
+}
+#form-group{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#p{
+    position: absolute;
+    top:90%;
+    left: 40%
+}
+p{  position: absolute;
+    top:60%;
+    left: 40%
+}
+
+.form{
+    margin: 10px;
+    text-align: center;
+    width: 50px
+}
+
+input{
+    width: 250px;
+    height: 20px;
+    border: none;
+    background-color: red
+}
+
+button{
+    width:250px;
+    margin:10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: blue;
+    border: none;
+    color: white
+}

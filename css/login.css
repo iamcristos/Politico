@@ -1,0 +1,64 @@
+nav{
+    margin: 0 0px 5px 0px;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    background-color:greenyellow;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    letter-spacing: 2px;
+    font-weight: bold
+}
+
+.right {
+    float: right;
+}
+
+li a{
+    text-decoration: none
+}
+
+h2{
+    position: absolute;
+    top:30%;
+    left: 45%;
+    letter-spacing: 2px;
+    color: blue
+}
+
+#form-group{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+p{  position: absolute;
+    top:65%;
+    left: 42%
+}
+
+input{
+    width: 250px;
+    height: 20px;
+    border: none;
+    margin: 10px;
+    background-color: red
+}
+
+button{
+    width:250px;
+    margin:10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: blue;
+    border: none;
+    color: white
+}
+
+button:hover{
+    font-weight: bolder
+}

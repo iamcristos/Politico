@@ -1,0 +1,82 @@
+nav{
+    margin: 0 0px 5px 0px;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    background-color:greenyellow;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 5px
+}
+
+li a{
+    text-decoration: none
+}
+
+.right{
+    float: right;
+}
+
+#user{
+    position: relative;
+    margin: 5px
+}
+
+#welcome{
+    position: absolute;
+    top:5px;
+    left:40%;
+    font-size: 200%;
+    color: blue;
+}
+
+#instruction{
+    position: absolute;
+    top:100px;
+    left:30%;
+    width: 60%x;
+    height: 300px;
+    border: 2px solid black
+}
+
+div p{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1px
+}
+
+button{
+    border: none;
+    margin:5px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#view-party{
+    position: absolute;
+    top: 2%;
+    width:200px;
+    background: red
+}
+li{
+    list-style: none;
+    margin:10px;
+    padding: 5px;
+    text-align: center;
+}
+
