@@ -1,3 +1,8 @@
+body{
+    position: relative;
+    font-family: sans-serif;
+}
+
 nav{
     margin: 0 0px 5px 0px;
     width: auto;
@@ -24,22 +29,21 @@ li a{
 .show-party{
     position: relative;
     left:33%;
-    right: 5%;
-    width: 670px;
+    width: 62%;
     height: auto;
     background: blue;
     color: brown
 }
 
 #party-header{
-    position: absolute;
-    left:20%;
-    margin: 5px;
+    margin: 30px;
     padding: 5px;
     letter-spacing: 2px
 }
 
 .political-party{
+    margin: 10px;
+    padding: 5px;
     list-style: none;
     letter-spacing: 5px;
     font-weight: bold;
@@ -79,3 +83,35 @@ p{
     padding: 5px
 }
 
+#create-party{
+    position: absolute;
+    top:20%;
+}
+/* #create-office{
+    position: absolute;
+    bottom: 50%
+} */
+
+@media only screen and (max-width: 768px) {
+    .show-party{
+        position: relative;
+        left:5%;
+        width: 90%;
+        height: auto;
+        background: blue;
+        color: brown
+    }
+
+    #create-party{
+        position: absolute;
+        top:110%;
+        left: 20%;
+    }
+
+    #create-office{
+        position: absolute;
+        top:150%;
+        left: 20%
+    } 
+
+}

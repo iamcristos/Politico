@@ -1,23 +1,30 @@
+html{
+    height: 100%;
+}
+
 body{
-    background-image: url(../images/voting2.jpg);
+    /* background-image: url(../images/voting2.jpg); */
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100%;
 }
 
 nav{
     margin: 5px;
-    padding: 5px
+    padding: 5px;
 }
 
 nav li {
     display: inline;
     margin: 15px;
-    font-size: 150%
+    margin-right: 5px;
+    font-size: 150%;
 }
 
 li a, a:visited {
     text-decoration: none;
-    color: blue
+    color: blue;
 }
 
 .right{
@@ -29,11 +36,14 @@ li:hover{
 }
 
 .home{
+    padding-top: 10%;
+    font-size: 20px;
     margin: 15%;
-    text-align: center
+    text-align: center;
+    color: blue;
 }
 
-#explore{
+/* #explore{
     outline: none;
     border: none;
     cursor: pointer;
@@ -49,9 +59,21 @@ li:hover{
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: 0px 6px #efa424;
+} */
+#explore{
+    border: none;
+    margin:5px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
-#explore:hover{
+/* #explore:hover{
     box-shadow: 0 4px #efa424;
     top: 2px;
 
@@ -60,5 +82,52 @@ li:hover{
 #explore:active{
     box-shadow: none;
     top: 6px;
+} */
+
+.toggle-btn{
+    transition: all 500ms linear;
+    display: none;	
 }
 
+.toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* other screen size */
+@media only screen and (max-width: 768px) {
+    body{
+        background: red;
+    }
+    .toggle-btn{
+		align-self: flex-end;
+		display: initial;
+        position: absolute;
+        left:80%;
+        cursor: pointer;
+        
+    }
+    .right{
+        display: none;
+    }
+
+    .show{
+        display: flex;
+    }
+
+    /* li{
+        display: block;
+        list-style-type: initial
+    } */
+
+    .home{
+        position: absolute;
+        top:10%;
+        font-size: 20px;
+        color: white;
+    }
+}
